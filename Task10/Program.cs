@@ -15,7 +15,7 @@ if (num >= 100 & num < 1000)
         num = (num/10);
     }
         second = (num % 10);
-        Console.WriteLine("Вторая цифра введёного числа ровна: " + second);
+        Console.WriteLine("Вторая цифра введёного числа равна: " + second);
     } 
         else
         Console.WriteLine("Введите трёхзначное число!");
